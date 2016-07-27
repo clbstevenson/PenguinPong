@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system additive="false">
+	<emitter imageName="" name="Smoke">
+		<spawnInterval enabled="false" max="100.0" min="100.0" />
+		<spawnCount enabled="true" max="1.0" min="1.0" />
+		<initialLife enabled="true" max="3000.0" min="3000.0" />
+		<initialSize enabled="true" max="28.0" min="28.0" />
+		<xOffset enabled="false" max="0.0" min="0.0" />
+		<yOffset enabled="true" max="0.0" min="0.0" />
+		<initialDistance enabled="false" max="0.0" min="0.0" />
+		<speed enabled="true" max="15" min="5.0" />
+		<length enabled="false" max="1000.0" min="1000.0" />
+		<spread value="30.0" />
+		<angularOffset value="0.0" />
+		<growthFactor value="9.0" />
+		<gravityFactor value="0.0" />
+		<startAlpha value="255.0" />
+		<endAlpha value="0.0" />
+		<color>
+			<step b="1.0" g="0.8" offset="0.0" r="0.8" />
+			<step b="0.4" g="0.4" offset="1.0" r="0.4" />
+		</color>
+	</emitter>
+	<emitter imageName="" name="Flame">
+		<spawnInterval enabled="false" max="500" min="150.0" />
+		<spawnCount enabled="true" max="25" min="5.0" />
+		<initialLife enabled="false" max="700.0" min="700.0" />
+		<initialSize enabled="true" max="25.0" min="25.0" />
+		<xOffset enabled="true" max="8.0" min="-8.0" />
+		<yOffset enabled="true" max="15.0" min="-8.0" />
+		<initialDistance enabled="false" max="0.0" min="0.0" />
+		<speed enabled="true" max="100.0" min="10.0" />
+		<length enabled="false" max="3000.0" min="3000.0" />
+		<spread value="500" />
+		<angularOffset value="0.0" />
+		<growthFactor value="50.0" />
+		<gravityFactor value="2.0" />
+		<startAlpha value="255.0" />
+		<endAlpha value="0.0" />
+		<color>
+			<step b="0.28" g="0.28" offset="0.0" r="1.0"/>
+			<step b="0.357" g="0.357" offset="0.333" r="0.357"/>
+			<step b="0.227" g="0.376" offset="1.0" r="0.471" />
+		</color>
+	</emitter>
+</system>
